@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BICYCLE</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="../public/output.css">
+    <!-- font -->
+    <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- swiper -->
+    <link rel="stylesheet" href="../public/swiper-bundle.min.css">
+    
+
+</head>
+<body>
+        
+    <!-- NAVBAR -->
+    <nav id="navbar" class="fixed top-0 left-0 w-full z-50 transition bg-transparent">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+              <h1 class="text-3xl xl:text-[30px] text-semiBlack mr-4 font-semibold">BICYCLE</h1>
+            </a>
+            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                <a href="signup.html">
+                  <button type="button" class="text-gray-900 bg-white border border-gray-200 
+                  hover:bg-blue hover:text-white hover:border-blue focus:ring-4 focus:outline-none focus:ring-blue-300 
+                  font-medium rounded-lg text-sm px-4 py-2 text-center xl:mx-7">Sign Up</button>
+                </a>
+
+                <a href="login.html">
+                  <button type="button" class="text-gray-900 bg-white border border-gray-200 
+                  hover:bg-blue hover:text-white hover:border-blue focus:ring-4 focus:outline-none focus:ring-blue-300 
+                  font-medium rounded-lg text-sm px-4 py-2 text-center">Sign In</button>
+                </a>
+
+                <button data-collapse-toggle="navbar-cta" type="button" class=" mnav__close-btn inline-flex items-center p-2 w-10 h-10 justify-center text-sm 
+                    text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 " aria-controls="navbar-cta" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+                <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row 
+                    md:mt-0 md:border-0">
+                    <li>
+                        <a href="#" class="block py-2 px-3 md:p-0 text-primary" aria-current="page">Home</a>
+                    </li>
+                     <li>
+                        <a href="#about" class="block py-2 px-3 md:p-0 text-primary hover:text-blue rounded">About</a>
+                    </li>
+                    <li>
+                        <a href="#services" id="contact-button" class="block py-2 px-3 md:p-0 text-primary hover:text-blue rounded">Services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-3 md:p-0 text-primary hover:text-blue rounded">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="bg-hero min-h-[448px] xl:min-h-[815px] bg-cover bg-no-repeat relative">
+      <div class="text-center flex flex-col py-40 xl:py-[340px]">
+          <h1 class="text-black font-bold text-[26px] mb-2 xl:text-[44px]"> <span class="bg-white">Make everything 🚀 with Plastic.</span></h1>
+          <h1 class="text-black font-bold text-[26px] xl:text-[44px]">Jakarta’s leading masterbatch.</h1>
+      </div>
+    </section>
+
+    <!-- REASON SECTION -->
+    <section id="about"> 
+      <div class="text-center mt-20">
+          <h1 class="text-3xl xl:text-4xl text-semiBlack mr-4 font-semibold py-4">Why BiCycle?</h1>
+          <p class="text-[15px] items-center">BICYCLE leads the change with plastic recycling. We combine technology and creativity to <br>create sustainable solutions. Join us in creating a green future!</p>
+      </div>
+
+      <div>
+        <div class="flex gap-10 justify-center my-10">
+          <div class="max-w-[640px] xl:max-w-xl p-6 bg-white border border-gray-200 rounded-lg shadow flex items-center card-container">
+            <svg class="flex text-gray-500 mr-3 ml-[50px]" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">
+              <image href="../assets/logo-1.svg" width="10" height="20" />
+            </svg>
+            <div>
+                <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900">Sustainable Cycle</h5>
+                <p class="mb-3 font-normal text-gray-500">BICYCLE is a recycling platform that promotes a sustainable cycle by transforming plastic waste into 
+                    high-value products.</p>
+            </div>
+          </div>
+        
+          <div class="max-w-xl p-6 bg-white border border-gray-200 rounded-lg shadow flex items-center card-container">
+            <svg class="flex text-gray-500 mr-3 ml-[50px]" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">
+                <image href="../assets/logo-2.svg" width="10" height="20" />
+            </svg>
+        
+            <div>
+              <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900">Product Innovation</h5>
+              <p class="mb-3 font-normal text-gray-500">We utilize advanced technology to turn plastic waste into eco-friendly products like outdoor furniture and sporting goods.</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="flex gap-10 justify-center">
+            <div class="max-w-xl p-6 bg-white border border-gray-200 rounded-lg shadow flex items-center card-container">
+                <svg class="flex text-gray-500 mr-3 ml-[50px]" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">
+                    <image href="../assets/logo-3.svg" width="10" height="20" />
+                </svg>
+
+                <div>
+                    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900">Community Collaboration</h5>
+                    <p class="mb-3 font-normal text-gray-500">We collaborate with local communities to raise recycling awareness and empower individuals for positive change.</p>
+                </div>
+            </div>
+    
+            <div class="max-w-xl p-6 bg-white border border-gray-200 rounded-lg shadow flex items-center card-container">
+                <svg class="flex text-gray-500 mr-3 ml-[50px]" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">
+                    <image href="../assets/logo-4.svg" width="10" height="20" />
+                </svg>
+
+                <div>
+                    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900">A Green Future</h5>
+                    <p class="mb-3 font-normal text-gray-500">Join BICYCLE for real change in tackling today's environmental challenges and shaping a greener, more sustainable future.</p>
+                </div>
+            </div>
+        </div>
+      </div>    
+    </section>
+
+   <!-- SERVICES -->
+    <section id="services" class="bg-second min-h-[448px] xl:min-h-[745px] bg-cover bg-no-repeat relative mt-40">
+        <div class="p-4 flex items-center justify-center  min-h-screen">
+            <form class="w-full max-w-screen-md mx-auto">
+                <fieldset class="space-y-6">
+                  <div class="flex items-center justify-between py-4">
+                    <legend class="text-3xl text-white mr-4 font-semibold">Trade your plastic waste now!</legend>
+                    <a href="detail.html" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg 
+                    hover:bg-blue hover:text-white hover:border-blue focus:z-10 focus:outline-none">
+                    Learn more <svg class="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg></a>
+                  </div>
+                  <div class="grid sm:grid-cols-4 gap-6">
+                    <label for="plan-hobby" class="relative flex flex-col bg-white p-5 rounded-lg shadow-md cursor-pointer">
+                      <span class="font-semibold text-gray-500 leading-tight uppercase mb-3">Plastic bottles</span>
+                      <span class="font-bold text-gray-900">
+                        <span class="text-2xl">Rp</span>
+                        <span class="text-3xl uppercase">2.500</span>
+                      </span>
+                      <span>
+                        <span class="text-xl font-semibold text-gray-500">/ 1 Kg</span>
+                      </span>
+                      <input type="radio" name="plan" id="plan-hobby" value="hobby" class="absolute h-0 w-0 appearance-none" />
+                      <span aria-hidden="true" class="hidden absolute inset-0 border-2 border-green-500 bg-green-200 bg-opacity-10 rounded-lg">
+                        <span class="absolute top-4 right-4 h-6 w-6 inline-flex items-center justify-center rounded-full bg-green-200">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5 text-green-600">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                          </svg>
+                        </span>
+                      </span>
+                    </label>
+                    <label for="plan-growth" class="relative flex flex-col bg-white p-5 rounded-lg shadow-md cursor-pointer">
+                      <span class="font-semibold text-gray-500 leading-tight uppercase mb-3">Plastic <br>bags</span>
+                      <span class="font-bold text-gray-900">
+                        <span class="text-2xl">Rp</span>
+                        <span class="text-3xl uppercase">1.000</span>
+                      </span>
+                      <span>
+                        <span class="text-xl font-semibold text-gray-500">/ 500 g</span>
+                      </span>
+                      <input type="radio" name="plan" id="plan-growth" value="growth" class="absolute h-0 w-0 appearance-none" checked />
+                      <span aria-hidden="true" class="hidden absolute inset-0 border-2 border-green-500 bg-green-200 bg-opacity-10 rounded-lg">
+                        <span class="absolute top-4 right-4 h-6 w-6 inline-flex items-center justify-center rounded-full bg-green-200">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5 text-green-600">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                          </svg>
+                        </span>
+                      </span>
+                    </label>
+                    <label for="plan-business" class="relative flex flex-col bg-white p-5 rounded-lg shadow-md cursor-pointer">
+                      <span class="font-semibold text-gray-500 leading-tight uppercase mb-3">Plastic straws</span>
+                      <span class="font-bold text-gray-900">
+                        <span class="text-2xl">Rp</span>
+                        <span class="text-3xl uppercase">1.500</span>
+                      </span>
+                      <span>
+                        <span class="text-xl font-semibold text-gray-500">/ 500 g</span>
+                      </span>
+                      <input type="radio" name="plan" id="plan-business" value="business" class="absolute h-0 w-0 appearance-none" />
+                      <span aria-hidden="true" class="hidden absolute inset-0 border-2 border-green-500 bg-green-200 bg-opacity-10 rounded-lg">
+                        <span class="absolute top-4 right-4 h-6 w-6 inline-flex items-center justify-center rounded-full bg-green-200">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5 text-green-600">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                          </svg>
+                        </span>
+                      </span>
+                    </label>
+                    <label for="plan-enterprise" class="relative flex flex-col bg-white p-5 rounded-lg shadow-md cursor-pointer">
+                      <span class="font-semibold text-gray-500 leading-tight uppercase mb-3">Plastic packaging</span>
+                      <span class="font-bold text-gray-900">
+                        <span class="text-2xl">Rp</span>
+                        <span class="text-3xl uppercase">1.000</span>
+                      </span>
+                      <span>
+                        <span class="text-xl font-semibold text-gray-500">/ 500 g</span>
+                      </span>
+                      <input type="radio" name="plan" id="plan-enterprise" value="enterprise" class="absolute h-0 w-0 appearance-none" />
+                      <span aria-hidden="true" class="hidden absolute inset-0 border-2 border-green-500 bg-green-200 bg-opacity-10 rounded-lg">
+                        <span class="absolute top-4 right-4 h-6 w-6 inline-flex items-center justify-center rounded-full bg-green-200">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5 text-green-600">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                          </svg>
+                        </span>
+                      </span>
+                    </label>
+                  </div>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <!-- WORD SECTION -->
+    <section class="overflow-hidden" id="scrollSection">
+        <div class="my-20">
+          <h1 id="animatedText" class="leading-10 font-bold text-4xl xl:mx-20 xl:text-7xl text-secondary relative">
+            We <span class="text-semiBlack">constantly work</span> towards developing a wider range of
+            <span class="bg-semiBlack text-white">cost-effective solutions</span> for our valued customers so as to give
+            <span class="text-semiBlack">maximum value</span> to their products & business.
+          </h1>
+        </div>
+    </section>
+  
+    <!-- FOOTER -->
+      <footer class="bg-white rounded-lg shadow mt-20">
+          <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+              <div class="sm:flex sm:items-center sm:justify-between">
+                  <a href="#" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                      <span class="self-center text-2xl font-semibold whitespace-nowrap">Bicycle</span>
+                  </a>
+                  <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0">
+                      <li>
+                          <a href="#" class="hover:underline me-4 md:me-6">About</a>
+                      </li>
+                      <li>
+                          <a href="#" class="hover:underline me-4 md:me-6">Services</a>
+                      </li>
+                      <li>
+                          <a href="#" class="hover:underline">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+              <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+              <span class="block text-sm text-gray-500 sm:text-center">© 2024 <a href="https://flowbite.com/" class="hover:underline">Bicycle</a>. All Rights Reserved.</span>
+          </div>
+      </footer>
+  
+    
+    <!-- SCRIPT -->
+    <script src="swiper-bundle.min.js"></script>
+    <script src="scrollreveal.min.js"></script>
+    <script src="main.js"></script>
+    <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
+</body>
+</html>

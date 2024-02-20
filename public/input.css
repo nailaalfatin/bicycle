@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-secondary font-primary text-[17px] leading-8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply text-primary leading-[120%];
+}
+
+input[type="radio"]:checked + span {
+  @apply block;
+}
+
+.word {
+  line-height: 1.5; /* Atur line-height sesuai kebutuhan */
+}
+
+.card-container {
+  transition: transform 1s ease-in-out;
+  border-color: transparent; /* Warna border default */
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+  border-color: #2ca9bc; /* Warna border saat dihover */
+}
+
+.navbar-scrolled {
+  background-color: white;
+  color: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.text-join h3 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.text-join p {
+  color: #e4e4e4;
+  font-size: 16px;
+}
+
+.ellipse {
+  width: 364px;
+  height: 182px;
+  position: absolute;
+  top: 150px;
+  left: 150px
+}
+
+.bottle {
+  width: 270px;
+  height: 300px;
+  position: absolute;
+  left: 350px;
+}
+
+.claim h3 {
+  color: #2ca9bc;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.claim p {
+  color: #858585;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.text-box {
+  width: 640px;
+  height: 308px;
+  padding: 20px 42px 56px 51px;
+  background: #f8f8f8;
+  gap: 50px;
+}
+
+.text-box button {
+  padding: 6px 13px;
+  border-radius: 30px;
+  background: #2ca9bc;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
